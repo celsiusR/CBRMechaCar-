@@ -23,17 +23,17 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 
 - Our R-squared value is 71%, which means roughly ~71% of the time the model will predict mpg values correctly. So the model does predict with reasonable effectiveness. Although, there are probably other factors that were not captured in the dataset that contribute to the mpg variability of the MechaCar prototypes.
 
-  ![]()![Deliverable1](C:\Rutgers\module-15\module-submission\Resources\Deliverable1.PNG)
+  ![]()![Deliverable1](Resources/Deliverable1.PNG)
 
 ## Summary Statistics on Suspension Coils
 
 
 
-![](C:\Rutgers\module-15\module-submission\Resources\total_summary.PNG)
+![](Resources/total_summary.PNG)
 
 ​																	**Total Summary**
 
-![](C:\Rutgers\module-15\module-submission\Resources\lot_summary.PNG)
+![](Resources/lot_summary.PNG)
 
 ​																	**Lot Summary**
 
@@ -47,16 +47,16 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 
 The tests and findings are all listed below.
 
-| ![img](file:///C:/Users/Exceed/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png) |
+| ![img](Resources/ttest1.PNG) |
 | ------------------------------------------------------------ |
 | **All Manufacturing Lots** - Data gathered of this test - the T-test for  the suspension coils across all manufacturing lots, shows that they are not  statistically different from the population mean, and the p-value is not low  enough (0.06028) for us to reject the null hypothesis. |
-| ![img](file:///C:/Users/Exceed/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png) |
+| ![img](Resources/ttest2.PNG) |
 | **Lot 1 -** A review of the results of the T-test for the  suspension coils for Lot 1 shows that there is not any statistically  different from the population mean. Besides, the p-value is not low enough (value  = 1) for us to reject the null hypothesis. |
 |                                                              |
-| ![img](file:///C:/Users/Exceed/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png) |
-| **Lot 2  -**A review of the results of the T-test for the  suspension coils for Lot 1 shows that there is not any statistically  different from the population mean. Besides, the p-value is not low enough (value  = .6072) for us to reject the null hypothesis. |
-| ![img](file:///C:/Users/Exceed/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png) |
-| **Lot 3 - **  Results from the T-test for the suspension coils for Lot 3  shows that they are somewhat different from the population mean. Also, the  p-value is just low enough (value = 0.0417) to reject the null hypothesis.  This lot may be need to be discarded. Alternatively, it should be closely  monitored. |
+| ![img](Resources/ttest3.PNG) |
+| **Lot 2  -** A review of the results of the T-test for the  suspension coils for Lot 1 shows that there is not any statistically  different from the population mean. Besides, the p-value is not low enough (value  = .6072) for us to reject the null hypothesis. |
+| ![img](Resources/ttest4.PNG) |
+| **Lot 3 -**  Results from the T-test for the suspension coils for Lot 3  shows that they are somewhat different from the population mean. Also, the  p-value is just low enough (value = 0.0417) to reject the null hypothesis.  This lot may be need to be discarded. Alternatively, it should be closely  monitored. |
 |                                                              |
 
 
